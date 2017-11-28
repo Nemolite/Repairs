@@ -1,0 +1,170 @@
+body,html {
+	margin: 0;
+	padding: 0;
+}
+
+.header-icon {
+	width: 100%;
+	height: 90px;
+	background-color: #000;
+	color:#fff;
+	padding-top:1%;
+}
+
+.header-menu {
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+
+}
+
+.logo-img {
+	margin-left: 102px;
+}
+
+.btn-cal {
+	width: 160px;
+	height: 42px;
+	background-image: url(../img/btn/btn.png);
+	margin-left: 40px;
+
+}
+
+.btn-cal p {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.calc {
+	float: left;
+	padding-left: 7px;
+	padding-top: 7px;
+}
+
+.calc-txt {
+   line-height: 1.3;
+
+}
+
+.btn-order {
+	width: 160px;
+	height: 42px;
+	background-image: url(../img/btn/btn.png);
+}
+
+.btn-order p {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	margin-left: 10px;
+}
+
+.num p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 47px;
+	margin-left: -40px;
+    margin-top: -14px;
+	color: #E5A207;
+	letter-spacing: -1px;
+
+}
+
+.btn-search {
+	width: 226px;
+    height: 33px;
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid #E5A207;
+    margin-top: 5px;
+    margin-left: -19px;
+
+
+}
+.btn-search img {
+	float: right;
+	margin-top: 3px;
+    margin-right: 9px;
+}
+
+.txt-menu-png {
+	margin-top: 7px;
+}
+
+.main {
+	width: 100%;
+	height: 700px;
+	/*background-image: url(../img/fons/main-img.jpg);*/
+	background-repeat: no-repeat; 
+	background-position: 50% 50%;
+	/*border:1px solid red;*/
+
+
+}
+
+/*секция main*/
+
+.main_logo {
+	width: 235px;
+    height: 80px;
+	margin: 0 auto;
+	margin-top: 200px;
+	
+}
+
+.main-head-txt {
+	width: 700px;
+	height: 150px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main-head-txt h3 {
+	font-size: 36px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+}
+
+.r-stop {
+	float: right;
+}
+
+.rich-txt {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*секция work*/
+
+.work {
+	width: 100%;
+	height: 750px;
+	background-color: #000;
+	float: left;
+}
+
+.line {
+	width: 225px;
+	border-top:2px solid #F1CD0D;
+	margin-top: 40px;
+	float: left;
+	margin-left: 10px;
+
+}
+.work-head-txt {
+	float: left;
+    width: 350px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.work-head-txt h4 {
+	text-transform: uppercase;
+	color:#F1CD0D;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 36px;
+}
