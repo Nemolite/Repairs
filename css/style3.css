@@ -359,6 +359,25 @@ body,html {
 	margin-top: 29px;
 }
 
+.courier-btn {
+	width: 250px;
+	height: 73px;
+	background-image: url(../img/btn-right/pod.png);
+	float: right;
+	margin-right: -10px;
+}
+
+.btn-modul {
+	width: 96%;
+    height: 89%;
+    margin-left: 5px;
+    margin-top: 5px;
+	background-image: url(../img/btn-right/btn-menu.png);
+}
+
+.vertic {
+	padding-top: 15px;
+}
 
 .opa-fon {
 	width: 63%;
@@ -1349,110 +1368,4 @@ textarea.input2 {
 
 
 /*кнопки*/
-
-.btn-modul {
-	display: none;
-	width: 300px;
-    padding-top: 11px;
-    height: 67px;
-    border:solid 4px #f7ce2c;
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    -webkit-border-radius:0px 0px 0px 20px;
-	border-radius: 0px 0px 0px 20px;
-	-moz-border-radius-topleft:0px;
-	-moz-border-radius-topright:0px; 
-	-moz-border-radius-bottomleft:20px;
-	-moz-border-radius-bottomright:0px;
-	 background-image: -moz-linear-gradient(top, #f7ce2c 0%, #d98900 100%); 
-    background-image: -webkit-linear-gradient(top, #f7ce2c 0%, #d98900 100%); 
-    background-image: -o-linear-gradient(top, #f7ce2c 0%, #d98900 100%); 
-    background-image: -ms-linear-gradient(top, #f7ce2c 0% ,#d98900 100%);
-
-}
-
-
-.btn-modul:hover {
-	width: 300px;
-    padding-top: 11px;
-    height: 67px;
-    border:solid 4px #d98900;
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    -webkit-border-radius:0px 0px 0px 20px;
-	border-radius: 0px 0px 0px 20px;
-	-moz-border-radius-topleft:0px;
-	-moz-border-radius-topright:0px; 
-	-moz-border-radius-bottomleft:20px;
-	-moz-border-radius-bottomright:0px;
-	 background-image: -moz-linear-gradient(top, #f7ce2c 0%, #d98900 100%); 
-    background-image: -webkit-linear-gradient(top, #f7ce2c 0%, #d98900 100%); 
-    background-image: -o-linear-gradient(top, #f7ce2c 0%, #d98900 100%); 
-    background-image: -ms-linear-gradient(top, #f7ce2c 0% ,#d98900 100%);
-
-}
-
-.btn-modul:active {
-	width: 300px;
-    padding-top: 11px;
-    height: 67px;
-    border:solid 4px #f7ce2c;
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    -webkit-border-radius:0px 0px 0px 20px;
-	border-radius: 0px 0px 0px 20px;
-	-moz-border-radius-topleft:0px;
-	-moz-border-radius-topright:0px; 
-	-moz-border-radius-bottomleft:20px;
-	-moz-border-radius-bottomright:0px;
-	background-image: -moz-linear-gradient(top, #d98900 0%, #f7ce2c 100%); 
-    background-image: -webkit-linear-gradient(top, #d98900 0%, #f7ce2c 100%); 
-    background-image: -o-linear-gradient(top, #d98900 0%, #f7ce2c 100%); 
-    background-image: -ms-linear-gradient(top, #d98900 0%, #f7ce2c 100%);
-
-}
-
-.gm-menu,
-.gm-calc,
-.gm-ord,
-.gm-phone {
-	cursor: pointer;
-}
-
-.menu-modul {
-	display: none;
-    position: fixed;
-    width: 35%;
-    height: 500px;
-    right: 0px;
-    top: 73px;
-    background: rgba(0, 0, 0, 0.7);
-}
-
-
-.menu-modul h4 {
-    text-align: center;
-    text-transform: uppercase;
-    color:#F1CD0D;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 24px;
-
-}
-
-.menu-modul h5 {
-    text-align: center;
-    color:#F1CD0D;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 22px;
-
-}
-
-
-
-
-
-
 
