@@ -95,7 +95,10 @@ body,html {
 
 .txt-menu-png {
 	margin-top: 7px;
+	cursor: pointer;
 }
+
+
 
 /*секция main*/
 
@@ -133,10 +136,43 @@ body,html {
 	float: right;
 }
 
-.rich-txt {
+.rich-txt h4 {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.rich-txt p {
+	text-align: center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 16px;
+	font-weight:700;
+
+}
+
+.menu-global-right {
+	display: none;
+	position: relative;
+    width: 35%;
+    height: 100%;
+    float: right;
+    margin-top: -641px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.menu-global-right h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color:#F1CD0D;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+
+.menu-global-right h5 {
+    text-align: center;
+    color:#F1CD0D;
+    font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
@@ -479,7 +515,7 @@ body,html {
 }
 
 .move {
-	width: 80%;
+	width: 60%;
 	height: 150px;
 	margin: 0 auto;
 }
@@ -584,9 +620,11 @@ body,html {
 
 
 .chk {
-	width: 10%;
-	height: 70px;
+	width: 20px;
+	height: 20px;
 	float: left;
+	background-color: #fff;
+	margin-left: 26px;
 	
 }
 
@@ -619,7 +657,7 @@ body,html {
 
 .btn-send p {
 	margin: 0;
-	padding-left: 46px;
+	padding-left: 33px;
 	color:#000;
 	text-transform: uppercase;
 	font-size: 16px;
@@ -899,7 +937,6 @@ body,html {
 .form-int {
 	width: 95%;
 	margin: 0 auto;
-	border:1px solid red;
 	height: 580px;
 }
 
@@ -983,11 +1020,12 @@ body,html {
 	margin: 0 auto;
 	color: #F1CD0D;
 
+
 }
 
 .total-txt p {
 	text-align: center;
-	font-size: 12px;
+	font-size: 11px;
 	margin-top: -5px;
 }
 
@@ -1075,3 +1113,96 @@ body,html {
     text-align: center;
 
 }
+
+/*---------------- phone html ----------------*/
+
+.phone-txt p {
+	color:#fff;
+	margin: 0px;
+
+}
+
+.phone-txt span {
+	color: #F1CD0D;
+}
+
+.phone-next-head {
+	width: 60%;
+	height: 250px;
+	margin-left: 34px;
+    margin-top: 47px;
+}
+
+.phone-next-head p {
+	color:#fff;
+	margin: 0px;
+}
+
+.phone-next-head h5 {
+	color: #F1CD0D;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.int-pice-sub p {
+	margin-left: 17px;
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+
+.past-form {
+	width: 90%;
+	height: 88px;
+	margin: 0 auto;
+}
+
+.box-form {
+	width: 100%;
+	height: 115px;
+	margin: 0 auto;
+	border:1px solid red;
+}
+
+.box-btn {
+	width: 100%;
+    height: 80px;
+	margin: 0 auto;
+	border:1px solid red;
+
+}
+
+.btn-box-txt p {
+    text-transform: uppercase;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.color-p {
+	color:#fff;
+}
+
+
+/*стилизация инпутов и чекбоксов*/
+
+
+input::-webkit-input-placeholder {color:#fff;}
+input::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+input:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+input:-ms-input-placeholder      {color:#fff;}
+
+input[type=text] ,
+textarea
+{
+	color:#fff;
+}
+
+textarea.input2 {
+   padding-left: 25px;	
+}
+
+
+
+
+
