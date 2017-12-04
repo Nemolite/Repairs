@@ -9,6 +9,11 @@ $(document).ready(function(){
     $("#glob-menu").click(function(){$("#glob-menu").fadeOut(1500)});
 
 
+
+     $("#id-str-menu").click(function(){$("#str-glob-menu").fadeIn(1500)});
+    $("#str-glob-menu").click(function(){$("#str-glob-menu").fadeOut(1500)});
+    
+
     $("#id-gm-menu").click(function(){$("#gm-module-menu").fadeIn(1500)});
     $("#gm-module-menu").click(function(){$("#gm-module-menu").fadeOut(1500)});
     

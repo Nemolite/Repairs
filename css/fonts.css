@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'Monitorca-Bd';
+	src: url('../fonts/monitorca-bd/monitorca-bd.eot');
+	src: url('../fonts/monitorca-bd/monitorca-bd.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/monitorca-bd/monitorca-bd.woff') format('woff'),
+	url('../fonts/monitorca-bd/monitorca-bd.ttf') format('truetype'),
+	url('../fonts/monitorca-bd/monitorca-bd.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'Monitorca-BdIt';
+	src: url('../fonts/monitorca-bdit/monitorca-bdit.eot');
+	src: url('../fonts/monitorca-bdit/monitorca-bdit.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/monitorca-bdit/monitorca-bdit.woff') format('woff'),
+	url('../fonts/monitorca-bdit/monitorca-bdit.ttf') format('truetype'),
+	url('../fonts/monitorca-bdit/monitorca-bdit.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'Monitorca-It';
+	src: url('../fonts/monitorca-it/monitorca-it.eot');
+	src: url('../fonts/monitorca-it/monitorca-it.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/monitorca-it/monitorca-it.woff') format('woff'),
+	url('../fonts/monitorca-it/monitorca-it.ttf') format('truetype'),
+	url('../fonts/monitorca-it/monitorca-it.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'Monitorca-Rg';
+	src: url('../fonts/monitorca-rg/monitorca-rg.eot');
+	src: url('../fonts/monitorca-rg/monitorca-rg.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/monitorca-rg/monitorca-rg.woff') format('woff'),
+	url('../fonts/monitorca-rg/monitorca-rg.ttf') format('truetype'),
+	url('../fonts/monitorca-rg/monitorca-rg.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'PresentScript';
+	src: url('../fonts/presentscript/presentscript.eot');
+	src: url('../fonts/presentscript/presentscript.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/presentscript/presentscript.woff') format('woff'),
+	url('../fonts/presentscript/presentscript.ttf') format('truetype'),
+	url('../fonts/presentscript/presentscript.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'PT Sans Bold';
+	src: url('../fonts/pt-sans-bold/pt-sans-bold.eot');
+	src: url('../fonts/pt-sans-bold/pt-sans-bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/pt-sans-bold/pt-sans-bold.woff') format('woff'),
+	url('../fonts/pt-sans-bold/pt-sans-bold.ttf') format('truetype'),
+	url('../fonts/pt-sans-bold/pt-sans-bold.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'PT Sans Narrow';
+	src: url('../fonts/pt-sans-narrow/pt-sans-narrow.eot');
+	src: url('../fonts/pt-sans-narrow/pt-sans-narrow.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/pt-sans-narrow/pt-sans-narrow.woff') format('woff'),
+	url('../fonts/pt-sans-narrow/pt-sans-narrow.ttf') format('truetype'),
+	url('../fonts/pt-sans-narrow/pt-sans-narrow.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	src: url('../fonts/pt-sans/pt-sans.eot');
+	src: url('../fonts/pt-sans/pt-sans.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/pt-sans/pt-sans.woff') format('woff'),
+	url('../fonts/pt-sans/pt-sans.ttf') format('truetype'),
+	url('../fonts/pt-sans/pt-sans.svg') format('svg');
+}

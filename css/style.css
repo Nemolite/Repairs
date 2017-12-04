@@ -127,22 +127,42 @@ body,html {
 }
 
 .btn-search {
-	width: 245px;
+	width: 209px;
     height: 35px;
+    margin-top: 6px;
+    margin-left: -5px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    border: 2px solid #E5A207;
-    margin-top: 5px;
-    margin-left: -50px;
     background-color: #fff;
 
 
 }
-.btn-search img {
-	float: right;
-	margin-top: 3px;
-    margin-right: 9px;
+
+.btn-calc-size {
+	margin-left: 6px;
+}
+
+.btn-calc-left {
+    margin-left: 40px;
+}
+
+.btn-search-input {
+	width: 80%;
+	height: 35px;
+	float: left;
+}
+
+.btn-search-button {
+	width: 19%;
+	height: 35px;
+	float: left;
+}
+
+.btn-search-button img {
+	margin-left: 10px;
+    margin-top: 6px;
+    cursor: pointer;
 }
 
 .txt-menu-png {
@@ -183,6 +203,7 @@ body,html {
 	font-size: 36px;
     font-family: 'Open Sans Condensed', sans-serif;
     margin-top: 100px;
+    font-weight:500;
 }
 
 .r-stop {
@@ -193,6 +214,7 @@ body,html {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Open Sans Condensed', sans-serif;
+	 font-weight:500;
 
 }
 
@@ -597,7 +619,7 @@ body,html {
 .move-txt p {
 	text-align: center;
 	margin: 0 92px;
-	font-family: 'Pattaya', sans-serif;
+	font-family: 'PresentScript', sans-serif;
 	font-size: 18px;
 	color:#fff;
 
@@ -720,6 +742,7 @@ body,html {
 	width: 100%;
 	height: 450px;
 	background-color: #000;
+
 }
 .stock-news h4 {
 	text-transform: uppercase;
@@ -887,6 +910,9 @@ body,html {
 	height: 750px;
 	background-color: #000;
 	padding-top: 56px;
+	background-image: url(../img/fons/fon100.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;
 }
 
 .num-phone-head {
@@ -1119,6 +1145,10 @@ body,html {
 	height: 930px;
 	background-color: #000;
 	padding-top: 30px;
+	background-image: url(../img/fons/fon100.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+
 }
 
 .shares-head {
@@ -1451,8 +1481,35 @@ textarea.input2 {
 }
 
 
+.str-menu-global-right {
+	display: none;
+    position: relative;
+    width: 35%;
+    height: 100%;
+    float: right;
+    margin-top: -694px;
+    background: rgba(0, 0, 0, 0.7);
 
+}
 
+.str-menu-global-right,
+.str-menu-global-right-shares h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #F1CD0D;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.str-menu-global-right-shares {
+	display: none;
+    position: relative;
+    width: 35%;
+    height: 500px;
+    float: right;
+    margin-top: -883px;
+    background: rgba(0, 0, 0, 0.7);
+
+}
 
 
 
