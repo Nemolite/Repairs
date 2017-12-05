@@ -12,6 +12,10 @@
       <!-- Import my styles-->
        <link type="text/css" rel="stylesheet" href="css/style.css" />
 
+    <!-- style new windows-->
+     <link rel="stylesheet" type="text/css" href="css/repair.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fs.selecter.css">
+
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!--   silder -->
@@ -109,6 +113,65 @@
     </div>
 
 </section> 
+<!-- It will be opened a new window  калькуляция -->
+	<div class="b-repair-fon" id="id-b-repair-fon">
+		<div class="b-repair">
+			<div class="b-repair-border">
+				<div class="repair-cencel" id="id-repair-cencel">
+                		<img src="img/from/cancel.png">
+                </div>
+                <div class="repair-form">
+
+                	<form class="form-size">
+                		<h5>Рассчитать стоимость ремонта</h5>
+                		<div class="select-pice">
+                       <select name="what[]">
+						    <option selected disabled>Что ремонтируем?</option>
+						    <option value="Телефон">Телефон</option>
+						    <option value="Ноутбук">Ноутбук</option>
+						    <option value="Компьютер">Компьютер</option>
+					   </select>
+					   </div>
+					
+
+					    <select name="what[]">
+						    <option selected disabled>Марка?</option>
+						    <option value="Марка1">Марка1</option>
+						    <option value="Марка2">Марка2</option>
+						    <option value="Марка3">Марка3</option>
+					   </select>
+
+					   <select name="what[]">
+						    <option selected disabled>Модель?</option>
+						    <option value="Модель1">Модель1</option>
+						    <option value="Модель2">Модель2</option>
+						    <option value="Модель3">Модель3</option>
+					   </select>
+
+					   <select name="what[]">
+						    <option selected disabled>Какая неисправность?</option>
+						    <option value="Неисправность1">Неисправность1</option>
+						    <option value="Неисправность1">Неисправность1</option>
+						    <option value="Неисправность1">Неисправность1</option>
+					   </select>
+
+					   <div class="btn-ripair">
+					   	<div class="btn-ripair-img">
+					   	<img src="img/btn-right/btn-calc.png">
+					   	</div>
+					   	<p>Расчитать</p>
+					   </div>	
+
+                	</form>
+                </div>
+
+			</div>	
+		</div>
+	</div>
+
+<!-- end  калькуляция -->
+
+
 
 <!-- index.php -->
 
@@ -174,7 +237,7 @@
 			 <div class="row">
 
 		          <div class="col s5">
-		          	<div class="btn-cal r-stop">
+		          	<div class="btn-cal r-stop" id="id-btn-cal-gl">
 			          	<div class="calc ">
 			          	<img src="img/icon/calc.png">
 			          	</div>
@@ -764,6 +827,11 @@
 
 <!--Import jQuery before materialize.js-->
  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
+<!-- new window-->
+<script type="text/javascript" src="js/jquery.fs.selecter.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
+
  <!-- slider -->
 <script type="text/javascript" src="js/jquery.bxslider.js"></script>
 <!-- materialize -->

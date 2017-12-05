@@ -1,8 +1,10 @@
 .b-repair-fon {
+	/*display: none;
+	position: fixed;*/
 	width: 100%;
 	height: 1000px;
 	background: rgba(0, 0, 0, 0.5);
-	padding-top: 150px;
+	padding-top: 100px;
 
 }
 
@@ -49,7 +51,7 @@
 .btn-ripair {
 	border:solid 4px #f7ce2c;
 	width: 155px;
-	height: 40px;
+	height: 47px;
 	margin: 0 auto;
 	-webkit-border-radius:15px 0px 15px 0px;
 	border-radius: 15px 0px 15px 0px;
@@ -68,7 +70,7 @@
 .btn-ripair:hover {
 	border:solid 4px #d98900;
 	width: 155px;
-	height: 40px;
+	height: 47px;
 	margin: 0 auto;
 	-webkit-border-radius:15px 0px 15px 0px;
 	border-radius: 15px 0px 15px 0px;
@@ -87,7 +89,7 @@
 .btn-ripair:active {
 	border:solid 4px #d98900;
 	width: 155px;
-	height: 40px;
+	height: 47px;
 	margin: 0 auto;
 	-webkit-border-radius:15px 0px 15px 0px;
 	border-radius: 15px 0px 15px 0px;
@@ -113,4 +115,27 @@
 	margin-top: 5px;
 	    margin-left: 13px;
 	float: left;
+}
+
+/*онлайн-заявка*/
+
+input#name-send {
+	width: 230px;
+	height: 30px;
+	margin: 0 auto;
+	-webkit-border-radius:10px 0px 10px 0px;
+	border-radius: 10px 0px 10px 0px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:0px; 
+	-moz-border-radius-bottomleft:0px;
+	-moz-border-radius-bottomright:10px;
+	padding-left: 10px;
+	font-size: 13px;
+	font-family: 'PT Sans';
+	margin-top: 10px;
+	
+}
+
+.online p {
+	margin-top: 5px;
 }

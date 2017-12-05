@@ -43,3 +43,16 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: top}, 1500);
     });
 });
+
+// высплывашка расчет
+
+$(document).ready(function(){
+    
+    $("#id-btn-cal-gl").click(function(){$("#id-b-repair-fon").fadeIn(1500)});
+    $("#id-repair-cencel").click(function(){$("#id-b-repair-fon").fadeOut(1500)});
+
+
+
+    
+    
+  }); 
