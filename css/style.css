@@ -648,6 +648,7 @@ body,html {
 	width: 45%;
 	height: 250px;
 	margin: 0 auto;
+	
 }
 
 .pice-name,
@@ -691,11 +692,11 @@ body,html {
 
 
 .chk {
-	width: 20px;
-	height: 20px;
-	float: left;
-	background-color: #fff;
-	margin-left: 26px;
+	width: 13px;
+    height: 16px;
+    float: left;
+    margin-left: 26px;
+    margin-top: 3px;
 	
 }
 
@@ -732,6 +733,7 @@ body,html {
 	color:#000;
 	text-transform: uppercase;
 	font-size: 16px;
+	cursor: pointer;
 	
 
 }

@@ -129,11 +129,23 @@
 
       </div>
       <div class="col s2">
+          <form action="" method="get">
           <div class="btn-search">
 
-          	<img src="img/icon/search.png">
+
+       <div class="btn-search-input">
+        <input name="name-search"  type="search">
+       </div>   
+        <div class="btn-search-button">  
+         
+            <img width="20" height="20" src="img/icon/search.png">
+         
+           </div> 
+
+          	
 
           </div>  
+          </form>  
       </div>
       <div class="col s2">
       	<div class="txt-menu-png" id="id-menu">
@@ -546,45 +558,36 @@
 <div class="middle-head">
 	<h5>Оставить отзыв</h5>
 </div>
-<div class="reiew-form">
+		<div class="reiew-form">
 
-	<form>
-	<div class="pice-name">
-		<input type="text" name="name" placeholder="Ваше имя">
-	</div>
+			<form>
+			<div class="pice-name">
+				<input type="text" name="name" placeholder="Ваше имя">
+			</div>
 
-	<div class="pice-phone">
-		<input  type="text" name="phone-email" placeholder="Телефон или email">
-	</div>
+			<div class="pice-phone">
+				<input  type="text" name="phone-email" placeholder="Телефон или email">
+			</div>
 
-		<div class="txt-mess">
-			<textarea id="textarea1" name="mess" class="materialize-textarea input2" placeholder="Ваш отзыв"></textarea>
-			<!-- <input type="text" name="mess" placeholder="Ваш отзыв"> -->
-		</div>
-
-		<div class="under-pice">
-           <div class="chk">
-                 <input type="checkbox" id="chkbox-style" />
-           </div>
-           <div class="chk-txt">
-           <label for ="chkbox-style" ><p>Согласие на обработку персональных данных</p></label>
-           </div>
-           <div class="btn-form">
-				<div class="btn-send valign-wrapper">
-					<p>Отправить</p>
+				<div class="txt-mess">
+					<textarea id="textarea1" name="mess" class="materialize-textarea input2" placeholder="Ваш отзыв"></textarea>
 				</div>
-           </div>
 
-
-
-
-		</div>
-	</form>
-
-
-
-
-</div>		
+				<div class="under-pice">
+		           <div class="chk">
+		                 <input type="checkbox" id="chkbox-style" />
+		           </div>
+		           <div class="chk-txt">
+		           <label for ="chkbox-style" ><p>Согласие на обработку персональных данных</p></label>
+		           </div>
+		           <div class="btn-form">
+						<div class="btn-send valign-wrapper">
+							<p>Отправить</p>
+						</div>
+		           </div>
+				</div>
+			</form>
+		</div>		
 
 
 </section>
