@@ -462,6 +462,92 @@
 
 }
 
+/*гарантии*/
+.m-garant {
+	width: 100%;
+	height: 700px;
+	background-color: #000;
+	background-image: url(../img/garant/1.png);
+	background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 61% 34%;
+    padding-top: 40px;
 
+}
+
+.m-garant-head {
+	width: 150px;
+	height: 80px;
+	margin: 0 auto;
+	
+}
+
+.m-garant-head-img  {
+	width: 50%;
+	height: 80px;
+	float: left;
+	background-image: url(../img/garant/3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.m-garant-head-img h1 {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-top: -3px;
+    margin-left: 11px;
+}
+
+.m-garant-head-img p {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-top: -31px;
+    margin-left: 11px;
+}
+
+
+.m-garant-head-txt {
+	width: 50%;
+	height: 80px;
+	float: left;
+	
+}
+
+.m-garant-head-txt h4 {
+	color:#F1CD0D;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-top: 21px;
+    margin-left: -21px;
+}
+
+.m-garant-txt {
+	width: 80%;
+	height: 250px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+.m-garant-txt h5 {
+    color:#F1CD0D;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+.m-garant-txt p {
+    color:#fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+ .m-master  {
+ 	width: 100%;
+	height: 700px;
+	background-color: #000;
+    background-image: url(../img/fons/fon3.jpg);
+	background-repeat: no-repeat;
+    background-position: 20% 50%;
+    background-size: cover;
+    padding-top: 40px;
+ } 
 /*@media only screen and (min-width: 280px) and (max-width: 420px)*/
 }
