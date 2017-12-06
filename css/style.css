@@ -1,3 +1,11 @@
+/*для мобильной версии*/
+
+.mobile {
+	display: none;
+}
+
+
+
 body,html {
 	margin: 0;
 	padding: 0;
@@ -720,11 +728,61 @@ body,html {
 
 }
 
+
 .btn-send {
-	width: 160px;
-	height: 42px;
-	background-image: url(../img/btn/btn.png);
-	float: right;
+	border:solid 4px #f7ce2c;
+	width: 155px;
+	height: 47px;
+	margin: 0 auto;
+	-webkit-border-radius:15px 0px 15px 0px;
+	border-radius: 15px 0px 15px 0px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-topright:0px; 
+	-moz-border-radius-bottomleft:0px;
+	-moz-border-radius-bottomright:15px;
+	 background-image: -moz-linear-gradient(top, #f7ce2c 0%, #d98900 100%); 
+    background-image: -webkit-linear-gradient(top, #f7ce2c 0%, #d98900 100%); 
+    background-image: -o-linear-gradient(top, #f7ce2c 0%, #d98900 100%); 
+    background-image: -ms-linear-gradient(top, #f7ce2c 0% ,#d98900 100%);
+
+}
+
+
+.btn-send:hover {
+	border:solid 4px #d98900;
+	width: 155px;
+	height: 47px;
+	margin: 0 auto;
+	-webkit-border-radius:15px 0px 15px 0px;
+	border-radius: 15px 0px 15px 0px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-topright:0px; 
+	-moz-border-radius-bottomleft:0px;
+	-moz-border-radius-bottomright:15px;
+	 background-image: -moz-linear-gradient(top, #f7ce2c 0%, #d98900 100%); 
+    background-image: -webkit-linear-gradient(top, #f7ce2c 0%, #d98900 100%); 
+    background-image: -o-linear-gradient(top, #f7ce2c 0%, #d98900 100%); 
+    background-image: -ms-linear-gradient(top, #f7ce2c 0% ,#d98900 100%);
+    cursor: pointer;
+
+}
+
+.btn-send:active {
+	border:solid 4px #d98900;
+	width: 155px;
+	height: 47px;
+	margin: 0 auto;
+	-webkit-border-radius:15px 0px 15px 0px;
+	border-radius: 15px 0px 15px 0px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-topright:0px; 
+	-moz-border-radius-bottomleft:0px;
+	-moz-border-radius-bottomright:15px;
+	background-image: -moz-linear-gradient(top, #d98900 0%, #f7ce2c 100%); 
+    background-image: -webkit-linear-gradient(top, #d98900 0%, #f7ce2c 100%); 
+    background-image: -o-linear-gradient(top, #d98900 0%, #f7ce2c 100%); 
+    background-image: -ms-linear-gradient(top, #d98900 0%, #f7ce2c 100%);
+
 }
 
 .btn-send p {
@@ -1285,6 +1343,9 @@ textarea.input2 {
 
 
 /*вехние иконки */
+
+
+
 .tel {
 	width: 100px;
     height: 70px;
