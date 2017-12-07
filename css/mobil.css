@@ -549,5 +549,332 @@
     background-size: cover;
     padding-top: 40px;
  } 
+
+/*отзыв мобильный*/
+
+.m-otziv {
+	width: 100%;
+	height: 750px;
+	background-color: #000;
+}
+
+.m-otziv-txt {
+	width: 80%;
+	height: 166px;
+	margin: 0 auto;
+	
+}
+
+.m-otziv-txt p {
+	color:#fff;
+	text-align: center;
+	font-size: 10pt;
+}
+
+.m-work-head-icon {
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	background-image: url(../img/rew/hum.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.m-move {
+	width: 100%;
+	height: 170px;
+}
+
+.m-move-txt-slider {
+	position: relative;
+	width: 100%;
+	height: 170px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+
+.m-move-txt-slider p {
+	margin: 0;
+	padding: 0;
+	font-size: 12pt;
+	color:#fff;
+	font-family: 'PresentScript';
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align:justify;
+	line-height:80%;
+}
+
+.m-otziv-img {
+    width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	background-image: url(../img/garant/4.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.m-otziv-from {
+	width: 80%;
+	height: 250px;
+	margin: 0 auto;
+	
+}
+
+.m-otziv-from-head {
+	width: 100%;
+	height: 25px;
+	margin: 0 auto;
+	
+}
+
+.m-otziv-from-head h4 {
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    color:#fff;
+    font-size: 14pt;
+    margin: 0;
+    padding: 0;
+}
+
+.m-otziv-form-line {
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 5px;
+	
+	
+}
+
+.m-otziv-form-line-post {
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 9px;
+}
+
+.m-otziv-form-line-left  {
+	width: 49%;
+	height: 40px;
+	float: left;
+	background-color: #1A1A1A;
+	-webkit-border-radius:10px 0px 0px 0px;
+	border-radius: 10px 0px 0px 0px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:0px; 
+	-moz-border-radius-bottomleft:0px;
+	-moz-border-radius-bottomright:0px;
+}
+
+.m-otziv-form-line-right {
+	width: 49%;
+	height: 40px;
+	float: left;
+	margin-left: 2%;
+	background-color: #1A1A1A;
+	
+}
+
+.m-otziv-form-line-eare {
+	width: 100%;
+	height: 40px;
+	background-color: #1A1A1A;
+	-webkit-border-radius:0px 0px 10px 0px;
+	border-radius: 0px 0px 10px 0px;
+	-moz-border-radius-topleft:0px;
+	-moz-border-radius-topright:0px; 
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:0px;
+}
+
+.m-otziv-chk {
+	width: 100%;
+	height: 40px;
+	
+}
+
+.m-checkbox:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+
+.m-lable {
+	color:#fff;
+	margin-top: -5px;
+    line-height: 1em;
+}
+
+input#m-checkbox {
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.m-btn-form {
+	width: 160px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+/*акции*/
+.m-akzi {
+	width: 100%;
+	height: 350px;
+	background-color: #000;
+}
+
+.m-akzi-left {
+	width: 50%;
+	height: 310px;
+	margin: 0 auto;
+	float: left;
+}
+
+.m-akzi-right {
+	width: 50%;
+	height: 310px;
+	margin: 0 auto;
+	float: left;
+}
+
+.m-akzi-img {
+	width: 100%;
+	height: 150px;
+	background-image: url(../img/news/news.png);
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 88% 78%;
+    
+}
+
+
+
+.m-akzi-name {
+	width: 100%;
+	height: 20px;
+	
+}
+.m-akzi-name h4 {
+    text-transform: uppercase;
+    text-align: center;
+    color:#F1CD0D;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 14pt;
+    margin: 0;
+    padding: 0;
+
+}
+
+.m-line {
+	width: 50px;
+	height: 2px;
+	background-color: #F1CD0D;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.m-akzi-txt {
+	width: 90%;
+	height: 100px;
+	margin: 0 auto;
+	
+}
+
+.m-akzi-txt p {
+    font-size: 10pt;
+	color:#fff;
+	margin: 0;
+}
+
+.m-akzi-txt-post {
+	width: 100%;
+	height: 20px;
+}
+
+.m-akzi-txt-post p {
+	color:#fff;
+	text-align: right;
+	font-size: 10pt;
+	margin: 0;
+}
+
+/*контакты*/
+.m-cont {
+	width: 100%;
+	height: 700px;
+	background-color: #000;
+
+}
+
+.m-cont-line {
+	width: 80%;
+	height: 60px;
+	margin: 0 auto;
+	
+}
+
+.m-cont-line-img-1 {
+	width: 15%;
+	height: 60px;
+	float: left;
+	background-image: url(../img/contacts/phone.png);
+	background-repeat: no-repeat;
+    background-position: 45% 29%;
+    background-size: 86% 49%;
+
+}
+
+.m-cont-line-img-2 {
+	width: 15%;
+	height: 60px;
+	float: left;
+	background-image: url(../img/contacts/adress.png);
+	background-repeat: no-repeat;
+    background-position: 45% 29%;
+    background-size: 86% 49%;
+
+}
+
+.m-cont-line-img-3 {
+	width: 15%;
+	height: 60px;
+	float: left;
+	background-image: url(../img/contacts/email.png);
+	background-repeat: no-repeat;
+    background-position: 45% 29%;
+    background-size: 86% 49%;
+
+}
+
+.m-cont-line-txt {
+	width: 85%;
+	height: 60px;
+	float: left;
+	
+}
+
+
+.m-cont-line-txt p {
+	font-size: 10pt;
+	color:#fff;
+	margin: 0;
+	margin-left: 5px;
+}
+
+.m-fix {
+	padding-top: 12px;
+}
+
+.m-cont-map {
+	width: 100%;
+	height: 200px;
+	border:2px solid #F1CD0D;
+	margin: 0 auto;
+}
+
 /*@media only screen and (min-width: 280px) and (max-width: 420px)*/
 }
