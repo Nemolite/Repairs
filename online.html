@@ -8,10 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery.fs.selecter.css">
 </head>
 <body>
-	<!-- It will be opened a new window  калькуляция -->
+	<!-- It will be opened a new window  онлайн заявка на ремонт-->
 	<div class="b-repair-fon">
-		<div class="b-repair">
-			<div class="b-repair-border">
+		<div class="b-repair-online">
+			<div class="b-repair-border-online">
 				<div class="repair-cencel">
                 		<img src="img/from/cancel.png">
                 </div>
@@ -20,22 +20,51 @@
                 	<form >
                 		<h5>Онлайн-заявка на ремонт</h5>
                 		<input id="name-send" type="text" name="name" placeholder="Ваше имя?">
-                		<input id="name-send" type="number" name="phone">
+                		<input id="name-send" type="text" name="phone" placeholder="Номер телефона?">
 
-                		<label><input id="checkBox" type="checkbox">заказать курьера</label>
-                		
-                		
-                		<input id="checkBox" type="checkbox">
-                		<p>вызвать мастера на дом</p>
-                		<input id="checkBox" type="checkbox">
-                		<p>согласие на обработку персноальных данных</p>
+                      <div class="g-chk chk-top">
+                          <div class="g-chk-input">
+	                      <input type="checkbox" class="g-checkbox-1" id="g-checkbox-1" />
+                           </div>
+                           <div class="g-chk-lable">
+	                      <label for="g-checkbox-1">
+	                      	<p class="g-lable-1">Заказть курьера
+	                      	</p>
+	                      </label>
+	                      </div>
+        	          </div>
 
-                		 <div class="btn-ripair online">
+        	          <div class="g-chk">
+                          <div class="g-chk-input">
+	                      <input type="checkbox" class="g-checkbox-1" id="g-checkbox-1" />
+                           </div>
+                           <div class="g-chk-lable">
+	                      <label for="g-checkbox-1">
+	                      	<p class="g-lable-1">Вызвать мастера на дом
+	                      	</p>
+	                      </label>
+	                      </div>
+        	          </div>
+
+        	           <div class="g-chk">
+                          <div class="g-chk-input">
+	                      <input type="checkbox" class="g-checkbox-1" id="g-checkbox-1" />
+                           </div>
+                           <div class="g-chk-lable">
+	                      <label for="g-checkbox-1">
+	                      	<p class="g-lable-1">Согласие на обработку персональных данных
+	                      	</p>
+	                      </label>
+	                      </div>
+        	          </div>
+
+        	           <div class="btn-ripair-online ">
 					   	<div class="btn-ripair-img">
-					   	<img src="img/btn-right/ord.png">
+					   	<img src="img/btn-right/btn-calc.png">
 					   	</div>
-					   	<p>Онлайн-заявка на ремонт</p>
+					   	<p>Онлайн-заявка <br> на ремонт</p>
 					   </div>
+                		
 
                 	</form>
                 </div>
@@ -44,7 +73,7 @@
 		</div>
 	</div>
 
-<!-- end  калькуляция -->
+<!-- end  онлайн заявка на ремонт-->
 
 
 

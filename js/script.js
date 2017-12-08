@@ -5,17 +5,37 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     
-    $("#id-menu").click(function(){$("#glob-menu").fadeIn(1500)});
+    $("#id-menu-top").click(function(){$("#glob-menu").fadeIn(1500)});
     $("#glob-menu").click(function(){$("#glob-menu").fadeOut(1500)});
 
 
 
-     $("#id-str-menu").click(function(){$("#str-glob-menu").fadeIn(1500)});
+    $("#id-str-menu").click(function(){$("#str-glob-menu").fadeIn(1500)});
     $("#str-glob-menu").click(function(){$("#str-glob-menu").fadeOut(1500)});
     
 
     $("#id-gm-menu").click(function(){$("#gm-module-menu").fadeIn(1500)});
     $("#gm-module-menu").click(function(){$("#gm-module-menu").fadeOut(1500)});
+
+
+// высплывашка расчет
+
+    $("#id-btn-cal-gl,#id-gm-calc-pk").click(function(){$("#id-b-repair-fon").fadeIn(1500)});
+    $("#id-repair-cencel").click(function(){$("#id-b-repair-fon").fadeOut(1500)});
+
+//всплывашка онлайн заявка
+
+    $("#id-btn-cal-online,#id-gm-ord-pk").click(function(){$("#id-online").fadeIn(1500)});
+    $("#id-online-cencel").click(function(){$("#id-online").fadeOut(1500)});
+// для мобильных
+ 
+// высплывашка расчет
+
+    $("#id-m-calc").click(function(){$("#id-m-b-repair-fon").fadeIn(1500)});
+    $("#id-m-repair-cencel").click(function(){$("#id-m-b-repair-fon").fadeOut(1500)});
+
+
+
     
   });
 
@@ -44,15 +64,20 @@ $(document).ready(function(){
     });
 });
 
-// высплывашка расчет
 
+
+
+
+
+
+
+
+//всплывашка онлайн заявка
+//
 $(document).ready(function(){
     
-    $("#id-btn-cal-gl").click(function(){$("#id-b-repair-fon").fadeIn(1500)});
-    $("#id-repair-cencel").click(function(){$("#id-b-repair-fon").fadeOut(1500)});
+    $("#id-m-calc-online").click(function(){$("#id-m-online").fadeIn(1500)});
+    $("#id-m-online-cencel").click(function(){$("#id-m-online").fadeOut(1500)});
 
-
-
-    
     
   }); 

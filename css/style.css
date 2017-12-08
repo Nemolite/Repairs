@@ -250,11 +250,10 @@ body,html {
 
 .menu-global-right {
 	display: none;
-	position: relative;
+	position: absolute;
     width: 35%;
-    height: 100%;
-    float: right;
-    margin-top: -721px;
+    height: 700px;
+    left:65%;
     background: rgba(0, 0, 0, 0.7);
 
 }
@@ -267,9 +266,24 @@ body,html {
 
 }
 
+.menu-global-right h4:hover {
+    text-align: center;
+    text-transform: uppercase;
+    color:#F9A500;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+
 .menu-global-right h5 {
     text-align: center;
     color:#F1CD0D;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.menu-global-right h5:hover {
+    text-align: center;
+    color:#F9A500;
     font-family: 'Open Sans Condensed', sans-serif;
 
 }
@@ -1519,7 +1533,7 @@ textarea.input2 {
 	display: none;
     position: fixed;
     width: 35%;
-    height: 500px;
+    height: 550px;
     right: 0px;
     top: 73px;
     background: rgba(0, 0, 0, 0.7);
@@ -1544,6 +1558,24 @@ textarea.input2 {
 }
 
 
+.menu-modul h4:hover {
+    text-align: center;
+    text-transform: uppercase;
+    color:#F9A500;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 24px;
+
+}
+
+.menu-modul h5:hover  {
+    text-align: center;
+    color:#F9A500;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+
+}
+
+
 .str-menu-global-right {
 	display: none;
     position: relative;
@@ -1555,8 +1587,15 @@ textarea.input2 {
 
 }
 
-.str-menu-global-right,
+
 .str-menu-global-right-shares h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #F1CD0D;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.str-menu-global-right h4 {
     text-align: center;
     text-transform: uppercase;
     color: #F1CD0D;

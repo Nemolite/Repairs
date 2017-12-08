@@ -32,6 +32,7 @@
   
 </head>
 <body>
+
 <!-- для ПК-->	
 <div class="pk">
 	<div class="btn-modul" id="id-btn-modul">
@@ -42,12 +43,12 @@
 			       </div>
 			     </div>
 			     <div class="col s2">
-			     	<div class="gm-calc">
+			     	<div class="gm-calc" id="id-gm-calc-pk">
 			     <img src="img/btn-right/btn-calc.png">
 			       </div>
 			     </div>
 			     <div class="col s2">
-			     	<div class="gm-ord"> 
+			     	<div class="gm-ord" id="id-gm-ord-pk"> 
 			     <img src="img/btn-right/ord.png">
 			       </div> 
 			     </div>
@@ -58,9 +59,9 @@
 			     </div>
 					      
 		</div>
-
-
 	</div>
+
+
     <div class="menu-modul" id="gm-module-menu">
    	<a href="#"><h4>О нас</h4></a>
 	<a href="#id-work"><h5>Как мы работаем</h5></a>
@@ -72,11 +73,11 @@
 
 
     <a href="#"><h4>Вакансия</h4></a>
-    <a href="#"><h4>Услуги</h4></a>
-    <a href="#"><h4>Абонентское обслуживание</h4></a>
+    <a href="phone.html"><h4 onclick="window.location.href='phone.html'">Услуги</h4></a>
+    <a href="stock.html"><h4 onclick="window.location.href='stock.html'">Абонентское обслуживание</h4></a>
     <a href="#"><h4>Сотрудничество</h4></a>
-    <a href="#"><h4>Акции</h4></a>
-    <a href="#"><h4>Новости</h4></a>
+    <a href="shares.html"><h4 onclick="window.location.href='shares.html'">Акции</h4></a>
+    <a href="news.html"><h4 onclick="window.location.href='news.html'">Новости</h4></a>
     </div>
 
 
@@ -117,6 +118,35 @@
     </div>
 
 </section> 
+
+ <!-- right global menu  -->
+
+<div class="menu-global-right" id="glob-menu">
+	<div class="menu-img-main">
+		<img src="img/btn/menu.png">
+	</div>
+	<a href="#"><h4>О нас</h4></a>
+	<a href="#id-work"><h5>Как мы работаем</h5></a>
+	<a href="#id-courier"><h5>Выезд курьера</h5></a>
+	<a href="#id-guarantee"><h5>Гарантии</h5></a>
+	<a href="#id-master"><h5>Выезд мастера</h5></a>
+	<a href="#id-review"><h5>Отзывы</h5></a>
+	<a href="#id-contacts"><h5>Контакты</h5></a>
+
+
+    <a href="#"><h4>Вакансия</h4></a>
+    <a href="phone.html"><h4 onclick="window.location.href='phone.html'">Услуги</h4></a>
+    <a href="stock.html"><h4 onclick="window.location.href='stock.html'" >Абонентское обслуживание</h4></a>
+    <a href="#"><h4>Сотрудничество</h4></a>
+    <a href="shares.html"><h4 onclick="window.location.href='shares.html'">Акции</h4></a>
+    <a href="news.html"><h4 onclick="window.location.href='news.html'">Новости</h4></a>
+
+
+</div>
+<!-- end right global menu  -->   
+
+
+
 <!-- It will be opened a new window  калькуляция -->
 	<div class="b-repair-fon" id="id-b-repair-fon">
 		<div class="b-repair">
@@ -176,6 +206,72 @@
 <!-- end  калькуляция -->
 
 
+	<!-- It will be opened a new window  онлайн заявка на ремонт-->
+	<div class="b-repair-fon" id="id-online">
+		<div class="b-repair-online">
+			<div class="b-repair-border-online">
+				<div class="repair-cencel" id="id-online-cencel">
+                		<img src="img/from/cancel.png">
+                </div>
+                <div class="repair-form">
+
+                	<form >
+                		<h5>Онлайн-заявка на ремонт</h5>
+                		<input id="name-send-online" type="text" name="name" placeholder="Ваше имя?">
+                		<input id="name-send-online" type="text" name="phone" placeholder="Номер телефона?">
+
+                      <div class="g-chk chk-top">
+                          <div class="g-chk-input">
+	                      <input type="checkbox" class="g-checkbox-1" id="g-checkbox-1" />
+                           </div>
+                           <div class="g-chk-lable">
+	                      <label for="g-checkbox-1">
+	                      	<p class="g-lable-1">Заказть курьера
+	                      	</p>
+	                      </label>
+	                      </div>
+        	          </div>
+
+        	          <div class="g-chk">
+                          <div class="g-chk-input">
+	                      <input type="checkbox" class="g-checkbox-1" id="g-checkbox-1" />
+                           </div>
+                           <div class="g-chk-lable">
+	                      <label for="g-checkbox-1">
+	                      	<p class="g-lable-1">Вызвать мастера на дом
+	                      	</p>
+	                      </label>
+	                      </div>
+        	          </div>
+
+        	           <div class="g-chk">
+                          <div class="g-chk-input">
+	                      <input type="checkbox" class="g-checkbox-1" id="g-checkbox-1" />
+                           </div>
+                           <div class="g-chk-lable">
+	                      <label for="g-checkbox-1">
+	                      	<p class="g-lable-1">Согласие на обработку персональных данных
+	                      	</p>
+	                      </label>
+	                      </div>
+        	          </div>
+
+        	           <div class="btn-ripair-online ">
+					   	<div class="btn-ripair-img">
+					   	<img src="img/btn-right/btn-calc.png">
+					   	</div>
+					   	<p>Онлайн-заявка <br> на ремонт</p>
+					   </div>
+                		
+
+                	</form>
+                </div>
+
+			</div>	
+		</div>
+	</div>
+
+<!-- end  онлайн заявка на ремонт-->
 
 <!-- index.php -->
 
@@ -215,7 +311,7 @@
           </form>  
       </div>
       <div class="col s2">
-      	<div class="txt-menu-png" id="id-menu">
+      	<div class="txt-menu-png" id="id-menu-top">
         <img src="img/btn/menu.png">
         </div>
       </div>
@@ -254,7 +350,7 @@
 			      <div class="col s2">
 			      </div>
 			      <div class="col s5">
-			           <div class="btn-cal">
+			           <div class="btn-cal" id="id-btn-cal-online">
 			          	<div class="calc">
 			          	<img src="img/icon/order.png">
 			          	</div>
@@ -302,31 +398,7 @@
           
 	</div>
 
-<!-- right global menu  -->
 
-<div class="menu-global-right" id="glob-menu">
-	<div class="menu-img-main">
-		<img src="img/btn/menu.png">
-	</div>
-	<a href="#"><h4>О нас</h4></a>
-	<a href="#id-work"><h5>Как мы работаем</h5></a>
-	<a href="#id-courier"><h5>Выезд курьера</h5></a>
-	<a href="#id-guarantee"><h5>Гарантии</h5></a>
-	<a href="#id-master"><h5>Выезд мастера</h5></a>
-	<a href="#id-review"><h5>Отзывы</h5></a>
-	<a href="#id-contacts"><h5>Контакты</h5></a>
-
-
-    <a href="#"><h4>Вакансия</h4></a>
-    <a href="#"><h4>Услуги</h4></a>
-    <a href="#"><h4>Абонентское обслуживание</h4></a>
-    <a href="#"><h4>Сотрудничество</h4></a>
-    <a href="#"><h4>Акции</h4></a>
-    <a href="#"><h4>Новости</h4></a>
-
-
-</div>
-<!-- end right global menu  -->
 
 
 </section> 
@@ -830,6 +902,134 @@
 
 <!-- для мобильных устройство -->
 <div class="mobile">
+
+<!-- It will be opened a new window  калькуляция -->
+	<div class="b-repair-fon" id="id-m-b-repair-fon">
+		<div class="b-repair">
+			<div class="b-repair-border">
+				<div class="repair-cencel" id="id-m-repair-cencel">
+                		<img src="img/from/cancel.png">
+                </div>
+                <div class="repair-form">
+
+                	<form class="form-size">
+                		<h5>Рассчитать стоимость ремонта</h5>
+                		<div class="select-pice">
+                       <select name="what[]">
+						    <option selected disabled>Что ремонтируем?</option>
+						    <option value="Телефон">Телефон</option>
+						    <option value="Ноутбук">Ноутбук</option>
+						    <option value="Компьютер">Компьютер</option>
+					   </select>
+					   </div>
+					
+
+					    <select name="what[]">
+						    <option selected disabled>Марка?</option>
+						    <option value="Марка1">Марка1</option>
+						    <option value="Марка2">Марка2</option>
+						    <option value="Марка3">Марка3</option>
+					   </select>
+
+					   <select name="what[]">
+						    <option selected disabled>Модель?</option>
+						    <option value="Модель1">Модель1</option>
+						    <option value="Модель2">Модель2</option>
+						    <option value="Модель3">Модель3</option>
+					   </select>
+
+					   <select name="what[]">
+						    <option selected disabled>Какая неисправность?</option>
+						    <option value="Неисправность1">Неисправность1</option>
+						    <option value="Неисправность1">Неисправность1</option>
+						    <option value="Неисправность1">Неисправность1</option>
+					   </select>
+
+					   <div class="btn-ripair">
+					   	<div class="btn-ripair-img">
+					   	<img src="img/btn-right/btn-calc.png">
+					   	</div>
+					   	<p>Расчитать</p>
+					   </div>	
+
+                	</form>
+                </div>
+
+			</div>	
+		</div>
+	</div>
+
+<!-- end  калькуляция -->
+
+
+	<!-- It will be opened a new window  онлайн заявка на ремонт-->
+	<div class="b-repair-fon" id="id-m-online">
+		<div class="b-repair-online">
+			<div class="b-repair-border-online">
+				<div class="repair-cencel" id="id-m-online-cencel">
+                		<img src="img/from/cancel.png">
+                </div>
+                <div class="repair-form">
+
+                	<form >
+                		<h5>Онлайн-заявка на ремонт</h5>
+                		<input id="name-send-online" type="text" name="name" placeholder="Ваше имя?">
+                		<input id="name-send-online" type="text" name="phone" placeholder="Номер телефона?">
+
+                      <div class="g-chk chk-top">
+                          <div class="g-chk-input">
+	                      <input type="checkbox" class="g-checkbox-1" id="g-checkbox-1" />
+                           </div>
+                           <div class="g-chk-lable">
+	                      <label for="g-checkbox-1">
+	                      	<p class="g-lable-1">Заказть курьера
+	                      	</p>
+	                      </label>
+	                      </div>
+        	          </div>
+
+        	          <div class="g-chk">
+                          <div class="g-chk-input">
+	                      <input type="checkbox" class="g-checkbox-1" id="g-checkbox-1" />
+                           </div>
+                           <div class="g-chk-lable">
+	                      <label for="g-checkbox-1">
+	                      	<p class="g-lable-1">Вызвать мастера на дом
+	                      	</p>
+	                      </label>
+	                      </div>
+        	          </div>
+
+        	           <div class="g-chk">
+                          <div class="g-chk-input">
+	                      <input type="checkbox" class="g-checkbox-1" id="g-checkbox-1" />
+                           </div>
+                           <div class="g-chk-lable">
+	                      <label for="g-checkbox-1">
+	                      	<p class="g-lable-1">Согласие на обработку персональных данных
+	                      	</p>
+	                      </label>
+	                      </div>
+        	          </div>
+
+        	           <div class="btn-ripair-online ">
+					   	<div class="btn-ripair-img">
+					   	<img src="img/btn-right/btn-calc.png">
+					   	</div>
+					   	<p>Онлайн-заявка <br> на ремонт</p>
+					   </div>
+                		
+
+                	</form>
+                </div>
+
+			</div>	
+		</div>
+	</div>
+
+<!-- end  онлайн заявка на ремонт-->
+
+
 <!-- первый блок с фоном -->	
    <section class="m-head">
 
@@ -847,9 +1047,9 @@
    	    <div class="m-head-txt">
    	    	<h4>МНОГОПРОФИЛЬНЫЙ ПРОИЗВОДСТВЕННЫЙ СЕРВИСНЫЙ ЦЕНТР</h4>
    	    </div>
-        <div class="m-btn">
+        <div class="m-btn" id="id-m-calc">
         	
-        		<div class="m-calc ">
+        		<div class="m-calc " >
 			      	<img src="img/icon/calc.png">
 			    </div>
 			    <div class="m-calc-txt valign-wrapper">
@@ -858,9 +1058,9 @@
         	
         </div>
 
-          <div class="m-btn">
+          <div class="m-btn" id="id-m-calc-online">
         	
-        		<div class="m-calc ">
+        		<div class="m-calc " >
 			      	<img src="img/icon/order.png">
 			    </div>
 			    <div class="m-calc-txt valign-wrapper">
@@ -901,7 +1101,7 @@
         </div>
 
 
-        </div>
+      
 
 
    </section>
