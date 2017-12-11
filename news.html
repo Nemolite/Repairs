@@ -4,16 +4,26 @@
 	<meta charset="UTF-8">
 	<title>КСИОН</title>
 	   
-      
-      <!--Import Google Icon Font-->
+       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/grid.css"  media="screen,projection"/>
       <!-- Import my styles-->
        <link type="text/css" rel="stylesheet" href="css/style.css" />
 
+       <!-- mobile style-->
+       <link type="text/css" rel="stylesheet" href="css/mobil.css" />
+
+    <!-- style new windows-->
+     <link rel="stylesheet" type="text/css" href="css/repair2.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fs.selecter.css">
+
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--   silder -->
+    <link type="text/css" rel="stylesheet" href="css/jquery.bxslider.css" />
+    <!-- new fonts-->
+    <link type="text/css" rel="stylesheet" href="css/fonts.css" />
       <!-- font -->
       <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
@@ -21,6 +31,8 @@
   
 </head>
 <body>
+
+  <!-- новости -->
 <section class="header-icon ">
 	<div class="row ">
       <div class="col s1"></div>
@@ -65,7 +77,7 @@
   <div class="row">
     
       <div class="col s2 ">
-        <div class="logo-img-skock ">
+        <div class="logo-img-skock" onclick="window.location.href='index.html'">
           <img src="img/logo/logo.png" class="img-invert" width="140" height="42">
           </div>
       </div>
@@ -103,21 +115,15 @@
 
       </div>
       <div class="col s2">
-        <form action="" method="get">
+       <form action="" method="get">
           <div class="btn-search">
 
-
-       <div class="btn-search-input">
-        <input name="name-search"  type="search">
-       </div>   
-        <div class="btn-search-button">  
-         
-            <img width="20" height="20" src="img/icon/search.png">
-         
-           </div> 
-
-            
-
+         <div class="btn-search-input">
+          <input name="name-search"  type="search" id="name-search">
+         </div>   
+          <div class="btn-search-button">  
+              <img width="20" height="20" src="img/icon/search.png">
+          </div> 
           </div>  
           </form>  
       </div>
@@ -230,14 +236,6 @@
     <img src="img/btn/menu.png">
   </div>
   <a href="#"><h4>О нас</h4></a>
-  <!-- <a href="#id-work"><h5>Как мы работаем</h5></a>
-  <a href="#id-courier"><h5>Выезд курьера</h5></a>
-  <a href="#id-guarantee"><h5>Гарантии</h5></a>
-  <a href="#id-master"><h5>Выезд мастера</h5></a>
-  <a href="#id-review"><h5>Отзывы</h5></a>
-  <a href="#id-contacts"><h5>Контакты</h5></a> -->
-
-
     <a href="#"><h4>Вакансия</h4></a>
     <a href="#"><h4>Услуги</h4></a>
     <a href="#"><h4>Абонентское обслуживание</h4></a>
@@ -256,7 +254,7 @@
 
 <!--Import jQuery before materialize.js-->
  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
+
 <!-- My script for work and cheng-->
 <script type="text/javascript" src="js/script.js"></script> 
 </body>

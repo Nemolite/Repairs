@@ -31,7 +31,7 @@ $(document).ready(function(){
  
 // высплывашка расчет
 
-    $("#id-m-calc").click(function(){$("#id-m-b-repair-fon").fadeIn(1500)});
+    $("#id-m-calc,#id-btn-cal-news").click(function(){$("#id-m-b-repair-fon").fadeIn(1500)});
     $("#id-m-repair-cencel").click(function(){$("#id-m-b-repair-fon").fadeOut(1500)});
 
 
@@ -65,15 +65,8 @@ $(document).ready(function(){
 });
 
 
-
-
-
-
-
-
-
 //всплывашка онлайн заявка
-//
+
 $(document).ready(function(){
     
     $("#id-m-calc-online").click(function(){$("#id-m-online").fadeIn(1500)});
